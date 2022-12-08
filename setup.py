@@ -5,13 +5,13 @@ with open(versionfile, 'rb') as f:
     exec(compile(f.read(), versionfile, 'exec'))
 
 setup(
-    name='homebrew-pypi-poet',
+    name='homebrew-python-poet',
     version=__version__,  # noqa
     url='https://github.com/tdsmith/homebrew-pypi-poet',
     license='MIT',
-    author='Tim D. Smith',
-    author_email='poet@tim-smith.us',
-    description='Writes Homebrew stanzas for pypi packages',
+    author='Justin S. Rice',
+    author_email='justin@cloudhippie.com',
+    description='Writes Homebrew formulae for Python packages',
     packages=['poet'],
     platforms='any',
     classifiers=[
